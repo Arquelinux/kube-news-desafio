@@ -31,13 +31,9 @@ jobs:
         with:
            files: ./src/Dockerfile
            push: true
-           tags:
+           tags: |
              arquelinux/kuber-news: latest
              arquelinux/kuber-news: ${{github.run_number}}
-
-
-
-
 
 
 
