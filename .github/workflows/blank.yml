@@ -35,8 +35,8 @@ jobs:
            context: ./src
            push: true
            tags: |
-             arquelinux/kuber-news: v1
-             arquelinux/kuber-news: ${{github.run_number}}
+             arquelinux/kube-news: v1
+             arquelinux/kube-news: ${{github.run_number}}
 
 
 
